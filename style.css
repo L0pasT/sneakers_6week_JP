@@ -201,7 +201,10 @@ footer .nav-link {
 }
 
 .main {padding: 32px 0;}
-.container{width: 1140px;}
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+}
 .sneaker_big__image{width: 100%;}
 .sneaker-big{
     padding: 48px;
@@ -270,6 +273,7 @@ h2.sneaker_big__subTitle{
         height: auto; 
         width: 100%; 
     }
+
     .footer-content {
         row-gap: 24px;
         flex-direction: column;
